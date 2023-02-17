@@ -1,13 +1,14 @@
 <html>
-	<body>
-		<p id="searchterm"></p>
-		<script>
+<body>
+<p id="searchterm"></p>
+<script>
 		searchterm = location.href.split("q=")[1];
 		searchterm = decodeURIComponent(searchterm);
 		document.getElementById("searchterm").innerHTML = "You searched for: " + searchterm;
 
 
 		document.getElementById("searchterm").innerHTML = "You searched for: " + searchterm;
-		</script>
-	</body>
+
+</script>
+</body>
 </html>
