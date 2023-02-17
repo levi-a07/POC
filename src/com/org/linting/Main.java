@@ -10,5 +10,7 @@ public class Main {
         final Logger logger = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
         logger.log(Level.INFO, "HELLO LINTING USED HERE");
         logger.log(Level.INFO, "HELLO LINTING USED HERE");
+
+        logger.log(Level.INFO, "HELLO LINTING USED HERE");
     }
 }
